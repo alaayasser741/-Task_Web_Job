@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="../css/style.min.css">
     <title>Gold || Register</title>
 </head>
+
 <body>
     <div class="container container--form">
         <div class="form__img">
@@ -15,34 +17,34 @@
         <div class="form__info">
             <h1>Create Account</h1>
             <p>Go ahead and sign up, let everyone know how awesome you are!</p>
-            <form id="form" action="/" method="post">
+            <form accept-charset="UTF-8" id="form" action="/" method="post">
                 <div class="form__input">
                     <div class="input">
-                        <input  type="text" id="username" placeholder="Username">
+                        <input name="username" type="text" id="username" placeholder="Username">
                         <img src="../img/User.svg" alt="user-icon">
                     </div>
-                    <span id="error-1"></span>
+                    <span></span>
                 </div>
                 <div class="form__input">
                     <div class="input">
-                        <input  type="email" id="email" placeholder="Email">
+                        <input name="email" type="email" id="email" placeholder="Email">
                         <img src="../img/EnvelopeSimple.svg" alt="EnvelopeSimple-icon">
-                    </div> 
-                    <span id="error-2"></span>
+                    </div>
+                    <span></span>
                 </div>
                 <div class="form__input">
                     <div class="input">
-                        <input  type="password" id="password" placeholder="Password">
+                        <input name="password" type="password" id="password" placeholder="Password">
                         <img src="../img/LockKey.svg" alt="lockKey-icon">
                     </div>
-                    <span id="error-3"></span>
+                    <span></span>
                 </div>
                 <div class="form__input">
                     <div class="input">
-                        <input  type="password" id="co-password" placeholder="Confirm Password">
+                        <input name="password_confirm" type="password" id="co-password" placeholder="Confirm Password">
                         <img src="../img/LockKey.svg" alt="lockKey-icon">
                     </div>
-                    <span id="error-4"></span>
+                    <span></span>
                 </div>
                 <input type="submit" class="btn" value="Create Account">
             </form>
@@ -50,4 +52,5 @@
     </div>
 </body>
 <script src="../js/main.js"></script>
+
 </html>

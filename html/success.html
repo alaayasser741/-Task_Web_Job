@@ -14,8 +14,12 @@
         </div>
         <div class="cont__text">
             <h1>Successfully logged in</h1>
-            <p>User@gmail.com</p>
+            <p id="user-email">User@gmail.com</p>
         </div>
     </div>
 </body>
+<script>
+    const email = document.getElementById('user-email')
+    email.innerText = localStorage.getItem('email')
+</script>
 </html>

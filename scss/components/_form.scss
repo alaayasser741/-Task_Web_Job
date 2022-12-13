@@ -64,7 +64,7 @@
         margin-block: 1rem;
     }
 }
-@media (width < 768px){
+@media (width < 991px){
     .form__img{
         inline-size: 100%;
         img{
@@ -84,7 +84,7 @@
     
 }
 .form__input{
-    margin-block-end: 1rem;
+    margin-block-end: .3rem;
     span{
         color: red;
         padding-inline-start: 1rem;
