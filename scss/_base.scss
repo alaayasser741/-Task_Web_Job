@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
     font-family: 'Mulish', sans-serif;
@@ -22,7 +23,9 @@ body{
     }
 }
 
-a{
+a,.btn{
+    border: 0;
+    outline: 0;
     text-align: center;
     border-radius: .625rem;
     text-decoration: none;
