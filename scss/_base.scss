@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Mulish', sans-serif;
+    min-block-size: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &::before{
+        content: '';
+        position: absolute;
+        inset-block-start: 0;
+        left: 0;
+        inline-size: 100%;
+        block-size: 100%;
+        background: url(../img/backgrond.png) no-repeat center/cover;
+        opacity: 60%;
+        z-index: -1;
+    }
+}
+
+a{
+    text-align: center;
+    border-radius: .625rem;
+    text-decoration: none;
+    background: $background-btn;
+    padding: 1rem;
+    font-size: 1rem;
+    color: $white;
+}
