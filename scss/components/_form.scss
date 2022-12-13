@@ -20,7 +20,7 @@
     }
     .input{
         position: relative;
-        margin-block-end: 1rem;
+        
         input{
             inline-size: 100%;
             border: 0;
@@ -48,6 +48,7 @@
             border-inline-end: 1px solid #9cadf280;
             padding-inline-end: .3rem;
         }
+
     }
     .btn{
         font-family: 'Mulish';
@@ -81,4 +82,17 @@
         
     }
     
+}
+.form__input{
+    margin-block-end: 1rem;
+    span{
+        color: red;
+        padding-inline-start: 1rem;
+    }
+}
+.invalid{
+    border: 1px solid red !important;
+}
+.valid{
+    border: 1px solid green !important;
 }

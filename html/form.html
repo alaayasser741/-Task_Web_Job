@@ -15,26 +15,39 @@
         <div class="form__info">
             <h1>Create Account</h1>
             <p>Go ahead and sign up, let everyone know how awesome you are!</p>
-            <form method="post">
-                <div class="input">
-                    <input required type="text" placeholder="Username">
-                    <img src="../img/User.svg" alt="user-icon">
+            <form id="form" action="/" method="post">
+                <div class="form__input">
+                    <div class="input">
+                        <input  type="text" id="username" placeholder="Username">
+                        <img src="../img/User.svg" alt="user-icon">
+                    </div>
+                    <span id="error-1"></span>
                 </div>
-                <div class="input">
-                    <input required type="email" placeholder="Email">
-                    <img src="../img/EnvelopeSimple.svg" alt="EnvelopeSimple-icon">
+                <div class="form__input">
+                    <div class="input">
+                        <input  type="email" id="email" placeholder="Email">
+                        <img src="../img/EnvelopeSimple.svg" alt="EnvelopeSimple-icon">
+                    </div> 
+                    <span id="error-2"></span>
                 </div>
-                <div class="input">
-                    <input required type="password" placeholder="Password">
-                    <img src="../img/LockKey.svg" alt="lockKey-icon">
+                <div class="form__input">
+                    <div class="input">
+                        <input  type="password" id="password" placeholder="Password">
+                        <img src="../img/LockKey.svg" alt="lockKey-icon">
+                    </div>
+                    <span id="error-3"></span>
                 </div>
-                <div class="input">
-                    <input required type="password" placeholder="Confirm Password">
-                    <img src="../img/LockKey.svg" alt="lockKey-icon">
+                <div class="form__input">
+                    <div class="input">
+                        <input  type="password" id="co-password" placeholder="Confirm Password">
+                        <img src="../img/LockKey.svg" alt="lockKey-icon">
+                    </div>
+                    <span id="error-4"></span>
                 </div>
                 <input type="submit" class="btn" value="Create Account">
             </form>
         </div>
     </div>
 </body>
+<script src="../js/main.js"></script>
 </html>
